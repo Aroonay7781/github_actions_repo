@@ -21,7 +21,7 @@ jobs:
       - name: Compile Java code
         run: |
           mkdir -p build
-          javac -d build HelloWorld.java
+          javac -d build Hello.java
 
       - name: Run Java program
-        run: java -cp build HelloWorld
+        run: java -cp build Hello
